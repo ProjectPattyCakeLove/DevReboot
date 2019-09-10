@@ -5,6 +5,7 @@ body, .tooltip
 
 .header-bar {
   background-color: #292929;
+  color: red;
 }
 
 .container--narrow {
