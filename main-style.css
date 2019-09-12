@@ -364,3 +364,39 @@ div, ul, li {
 .container__rowfw {
   width: 100%;
 }
+
+.title-bg {
+  background-color: #f098c07e;
+  
+}
+
+#grad1 {
+  height: 60px;
+  background-image: linear-gradient(to bottom, #f098c09d , #fff);
+}
+
+.headline--small {
+  color: rgb(121, 121, 121);
+}
+
+a {
+  color: #666;
+}
+
+.social-icon {
+  padding-right: 10px;
+}
+
+#grad2 {
+  height: 60px;
+  background-image: linear-gradient(to bottom, #f15e49 , #f15e49);
+  color: rgb(233, 233, 233);
+
+}
+
+#grad3 {
+  height: 30px;
+  background-image: linear-gradient(to bottom, #464646 , #464646);
+  color: rgb(192, 191, 191);
+
+}
