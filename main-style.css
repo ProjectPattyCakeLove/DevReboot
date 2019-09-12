@@ -338,19 +338,19 @@ div, ul, li {
 .col-sm__box1 {
   background-color: #2dccd3;
   padding-top: 15px;
-  margin: 10px;
+  margin: 0;
 }
 
 .col-sm__box2 {
   background-color: #FED141;
   padding-top: 15px;
-  margin: 10px;
+  margin: 0;
 }
 
 .col-sm__box3 {
   background-color: #F99FC9;
   padding-top: 15px;
-  margin: 10px;
+  margin: 0px;
 }
 
 .text-color {
