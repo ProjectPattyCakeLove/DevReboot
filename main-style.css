@@ -400,3 +400,12 @@ a {
   color: rgb(192, 191, 191);
 
 }
+
+.heart-icon {
+  float: right;
+  padding: 5px;
+}
+.eye-icon {
+  float: left;
+  padding: 5px;
+}
