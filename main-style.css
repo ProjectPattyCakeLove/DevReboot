@@ -356,3 +356,11 @@ div, ul, li {
 .text-color {
   color: #fff;
 }
+
+.eye-icon {
+  color: rgb(97, 96, 96);
+}
+
+.container__rowfw {
+  width: 100%;
+}
