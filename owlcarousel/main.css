@@ -16,7 +16,7 @@
 		    font-weight: 300;
 		}
 		.testimonial-name {
-		    margin: 10% 40% -5% 55%;
+		    margin: 10% 10% -5% 50%;
 		    display: table;
 		    width: auto;
 		    background: #f15e49;
@@ -30,7 +30,7 @@
 		    text-align: center;
 		    padding: 50px;
 			margin-bottom:80px;
-			margin-left: -50%;
+			margin-left: -30%;
 		    opacity: .2;
 		    -webkit-transform: scale3d(0.8, 0.8, 1);
 		    transform: scale3d(0.8, 0.8, 1);
