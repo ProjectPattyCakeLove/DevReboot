@@ -390,6 +390,9 @@ a {
   height: 60px;
   background-image: linear-gradient(to bottom, #f15e49 , #f15e49);
   color: rgb(233, 233, 233);
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
 
 }
 
@@ -498,6 +501,15 @@ margin-right: 0;
     font-weight: 500;
     line-height: 2;
     }
+
+    .fonts h5 {
+      font-family: 'EB Garamond', serif;
+      font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    
+      }
+    
 
   .mb-3, .my-3 {
     margin-right: auto;
