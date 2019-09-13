@@ -362,9 +362,6 @@ div, ul, li {
   color: rgb(97, 96, 96);
 }
 
-.container__rowfw {
-  width: 100%;
-}
 
 .title-bg {
   background-color: #f098c07e;
@@ -397,15 +394,17 @@ a {
 }
 
 #grad3 {
-  height: 30px;
+  height: 50px;
   background-image: linear-gradient(to bottom, #464646 , #464646);
   color: rgb(192, 191, 191);
+  margin-bottom: -20px;
 
 }
 
 .heart-icon {
   float: right;
   padding: 5px;
+  margin-top: -35px;
 }
 .eye-icon {
   float: left;
@@ -447,6 +446,11 @@ a {
   opacity: .75;
 }
 
+.row__margin {
+margin-left: 0;
+margin-right: 0;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
   background-color: #f15e49;
@@ -457,7 +461,7 @@ a {
   font-weight: 700;
   line-height: 46px;
   font-size: 52px;
-  margin: 0 0 23px 0;
+  
   color: rgb(78, 78, 78);
   }
 
@@ -468,7 +472,7 @@ a {
   font-size: 18px;
   line-height: 23px;
   letter-spacing: 2px;
-  margin: 0 0 23px 0;
+ 
   }
 
   .fonts h3 {
@@ -478,14 +482,14 @@ a {
     font-size: 1.8rem;
     line-height: 2;
     letter-spacing: 2px;
-    margin: 0 0 2px 0;
+    
     }
 
 .fonts p {
   font-family: 'EB Garamond', serif;
   font-size: 16px;
-  line-height: 23px;
-  margin: 0 0 23px 0;
+  line-height: 10px;
+  
   }
 
   .fonts h4 {
