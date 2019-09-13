@@ -524,3 +524,12 @@ margin-right: 0;
 .col {
   margin: 20px;
 }
+
+p.product-description {
+  line-height: 1;
+  margin: 0;
+}
+
+.col__product {
+  margin: 0;
+}
