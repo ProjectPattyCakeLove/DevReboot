@@ -48,8 +48,7 @@
     visibility: visible;
   }
   
-  @media (min-width: 960px) {
-  
+  @media (min-width: 960px) {  
     .site-header__menu {
       visibility: visible;
       opacity: 1;
@@ -98,16 +97,14 @@
     right: 46px;
   }
   
-  @media (min-width: 530px) {
-  
+  @media (min-width: 530px) {  
     .site-header__menu-trigger {
       top: 5px;
       font-size: 1.4rem;
     }
   }
   
-  @media (min-width: 960px) {
-  
+  @media (min-width: 960px) {  
     .site-header__menu-trigger {
       display: none;
     }
@@ -117,8 +114,7 @@
     padding: 0 0 0 20px;
   }
   
-  @media (min-width: 960px) {
-  
+  @media (min-width: 960px) {  
     .site-header__util {
       padding: 0;
       float: right;
@@ -129,8 +125,7 @@
     margin-right: 20px;
   }
   
-  @media (min-width: 960px) {
-  
+  @media (min-width: 960px) {  
     .site-header__btn {
       float: left;
     }
@@ -159,8 +154,7 @@
     clear: both;
   }
   
-  @media (min-width: 960px) {
-  
+  @media (min-width: 960px) {  
     .main-navigation {
       float: left;
       margin-right: 20px;
@@ -171,8 +165,7 @@
     list-style: none;
   }
   
-  @media (min-width: 960px) {
-  
+  @media (min-width: 960px) {  
     .main-navigation li {
       float: left;
       padding-left: 20px;
@@ -187,8 +180,7 @@
     font-weight: 300;
   }
   
-  @media (min-width: 960px) {
-  
+  @media (min-width: 960px) {  
     .main-navigation a {
       display: inline-block;
       padding: 0;
@@ -286,8 +278,7 @@
     border-radius: 7px;
   }
   
-  @media (min-width: 530px) {
-  
+  @media (min-width: 530px) {  
     .btn--large {
       font-size: 1.9rem;
     }
@@ -308,8 +299,7 @@
     margin-left: 20px;
   }
   
-  @media (min-width: 960px) {
-  
+  @media (min-width: 960px) {  
     .search-trigger {
       display: inline-block;
       top: 6px;
@@ -324,13 +314,14 @@
     position: relative;
     z-index: 20;
     margin-top: -1.5%;
+    margin-left: 50px;
+
     width: 20%;
   }
+  /** ----Header End---- */
 
-  /* ----Header End---- */
 
-/* ----Footer---- */
-
+ /** ----Footer---- */
 div, ul, li {
     margin: 0;
     padding: 0;
@@ -364,8 +355,7 @@ div, ul, li {
 
 
 .title-bg {
-  background-color: #f098c07e;
-  
+  background-color: #f098c07e;  
 }
 
 #grad1 {
@@ -383,7 +373,7 @@ a {
 
 .social-icon {
   color: #DDD;
-  padding-right: 10px;
+  padding-right: 10px; 
 }
 
 #grad2 {
@@ -393,7 +383,6 @@ a {
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 5px;
-
 }
 
 #grad3 {
@@ -401,7 +390,6 @@ a {
   background-image: linear-gradient(to bottom, #464646 , #464646);
   color: rgb(192, 191, 191);
   margin-bottom: -20px;
-
 }
 
 .heart-icon {
@@ -435,7 +423,7 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin: 0 8px;
+  margin: 0 8px;  
 }
 
 .social-icons-list li a {
@@ -443,6 +431,8 @@ a {
   text-align: center;
   color: #FFF;
   font-size: 1.25rem;
+  padding: 2px;  
+  border-radius: 40px;
 }
 
 .social-icons-list li a:hover {
@@ -463,8 +453,7 @@ margin-right: 0;
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
   line-height: 46px;
-  font-size: 52px;
-  
+  font-size: 40px;  
   color: rgb(78, 78, 78);
   }
 
@@ -474,8 +463,7 @@ margin-right: 0;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 23px;
-  letter-spacing: 2px;
- 
+  letter-spacing: 2px; 
   }
 
   .fonts h3 {
@@ -484,15 +472,13 @@ margin-right: 0;
     text-transform: uppercase;
     font-size: 1.8rem;
     line-height: 2;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;    
     }
 
 .fonts p {
   font-family: 'EB Garamond', serif;
   font-size: 16px;
-  line-height: 10px;
-  
+  line-height: 10px;  
   }
 
   .fonts h4 {
@@ -502,13 +488,12 @@ margin-right: 0;
     line-height: 2;
     }
 
-    .fonts h5 {
-      font-family: 'EB Garamond', serif;
-      font-size: 1.25rem;
+  .fonts h5 {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.25rem;
     font-weight: 500;
-    line-height: 1.2;
-    
-      }
+    line-height: 1.2;    
+    }
     
 
   .mb-3, .my-3 {
@@ -533,3 +518,224 @@ p.product-description {
 .col__product {
   margin: 0;
 }
+
+
+
+/** Added by PRYMO for IG
+******************************************* */
+body {
+  margin: 0;
+  /*background: #222;*/
+}
+
+.container--narrow {
+  max-width: 1024px;
+}
+
+.topiecha-grid {
+  width: 100%;
+  max-width: 100%;
+  margin: 15vh auto;
+  background: #fff;
+}
+.topiecha-grid .header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh 0 0 0;
+  color: #222;
+  font-size: 18px;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 600;
+}
+.topiecha-grid .header::before {
+  margin-right: 10px;
+  content: '\f16d'; /*Instagram*/
+  color: #999;
+  font-size: 1.8em;
+  font-family: 'fontawesome';
+  font-weight: normal;
+
+}
+.topiecha-grid > ul {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  min-width: 400px;
+  height: 100vh;
+  max-height: 310px;
+  padding-bottom: 5px;
+  font-size: 0;
+}
+.topiecha-grid > ul > li {
+  position: relative;
+  width: calc(15% - 5px);
+  height: calc(50%  - 3px);
+}
+.topiecha-grid > ul > li:first-of-type {
+  padding-left: 5px;
+}
+.topiecha-grid > ul > li:nth-of-type(3n+1) {
+  width: calc(23.35% - 5px);
+  height: 100%;
+}
+.topiecha-grid > ul > li:nth-of-type(3n+2) {
+  margin-bottom: 6px;
+}
+.topiecha-grid > ul > li:nth-of-type(n + 8) {
+  display: none;
+}
+.topiecha-grid > ul > li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+}
+.topiecha-grid > ul > li a > ul.insta-info {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(139, 120, 74, 0.77);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease 0s;
+}
+.topiecha-grid > ul > li a > ul.insta-info > li {
+  padding: 0 8px;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', arial, sans-serif;
+}
+.topiecha-grid > ul > li a > ul.insta-info > li::before {
+  margin-right: 4px;
+  color: #fff;
+  font-size: 1.2em;
+  font-family: 'fontawesome';
+}
+.topiecha-grid > ul > li a > ul.insta-info > li.likes::before {
+  content: '\f004';
+  color: red;
+}
+.topiecha-grid > ul > li a > ul.insta-info > li.comments::before {
+  content: '\f086';
+}
+.topiecha-grid > ul > li a img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease 0s;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.topiecha-grid > ul > li a:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+.topiecha-grid > ul > li a:hover img {
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+}
+
+@media screen and (max-width: 870px) {
+  .topiecha-grid > ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    min-width: 100%;
+    max-height: none;
+    height: auto;
+  }
+  .topiecha-grid > ul > li {
+    width: calc(32.5%);
+    height: 200px;
+    padding: 0;
+    margin-bottom: 6px;
+  }
+  .topiecha-grid > ul > li:first-of-type {
+    padding: 0;
+  }
+  .topiecha-grid > ul > li:nth-of-type(3n+1) {
+    width: calc(32.5%);
+    height: 200px;
+  }
+  .topiecha-grid > ul > li:nth-of-type(n + 8) {
+    display: block;
+  }
+  .topiecha-grid > ul > li:nth-of-type(n + 10) {
+    display: none;
+  }
+  .topiecha-grid > ul > li a > ul.insta-info {
+    opacity: 1;
+    visibility: visible;
+    top: auto;
+    bottom: 0;
+    height: 50px;
+  }
+  .topiecha-grid > ul > li a > ul.insta-info > li {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .topiecha-grid > ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    min-width: 100%;
+    max-height: none;
+    height: auto;
+  }
+  .topiecha-grid > ul > li {
+    width: calc(48.5%);
+    height: 300px;
+    padding: 0;
+    margin-bottom: 6px;
+    margin-right: 0;
+  }
+  .topiecha-grid > ul > li:first-of-type {
+    padding: 0;
+  }
+  .topiecha-grid > ul > li:nth-of-type(3n+1) {
+    width: calc(48.5%);
+    height: 300px;
+  }
+  .topiecha-grid > ul > li:nth-of-type(n + 9) {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .topiecha-grid > ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    min-width: auto;
+    max-height: none;
+    height: auto;
+    padding: 0;
+  }
+  .topiecha-grid > ul > li {
+    width: 97%;
+    height: 50%;
+    margin: 0 0 5px 0;
+  }
+  .topiecha-grid > ul > li:nth-of-type(3n+1) {
+    width: 98%;
+    height: 50%;
+  }
+}
+/** Added by PRYMO - End IG*/
