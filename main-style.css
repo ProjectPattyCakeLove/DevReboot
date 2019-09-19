@@ -831,3 +831,8 @@ body {
     float: right;
   }
 }
+
+.carousel-item {
+  max-width: 100%;
+  height: auto;
+}
