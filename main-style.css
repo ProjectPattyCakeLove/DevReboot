@@ -497,13 +497,11 @@ margin-right: 0;
     
 
   .mb-3, .my-3 {
-    margin-right: auto;
-    margin-left: 15%;
     padding: 10px;
 }
 
 .nav-pills .nav-link {
-  margin: 20px;
+  margin: 0px;
 }
 
 .col {
@@ -832,7 +830,23 @@ body {
   }
 }
 
-.carousel-item {
-  max-width: 100%;
+/*.babyimage {
+  width: 100%;
   height: auto;
+}
+*/
+
+
+
+/*
+@media only screen and (mmin-width: 375px) {
+  .center {
+     
+    margin-left: -370px;
+    
+  }*/
+  
+
+  .nav-link {
+    padding: 5px 5px;
 }
