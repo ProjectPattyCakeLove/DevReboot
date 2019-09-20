@@ -498,6 +498,8 @@ margin-right: 0;
 
   .mb-3, .my-3 {
     padding: 10px;
+    border-bottom-style: solid;
+    border-color: #f15e49;
 }
 
 .nav-pills .nav-link {
@@ -850,3 +852,18 @@ body {
   .nav-link {
     padding: 5px 5px;
 }
+
+/*top picks mobile font*/
+@media (max-width: 375px){
+h3.h3-mob {
+  font-size: 14px;
+}}
+
+@media (max-width: 375px){
+  .promob {
+    width: 100px;
+  }}
+
+
+
+/*top picks mobile font*/
