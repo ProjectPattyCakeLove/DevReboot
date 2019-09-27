@@ -314,9 +314,9 @@
     position: relative;
     z-index: 9999;
     margin-top: -1.3%;   
-    background: rgba(54, 69, 79, 0.8);
+    /**background: rgba(54, 69, 79, 0.8);*/
     border-radius: 3px;    
-    /*width: 10%;*/
+    width: 15%;
   }
   /** ----Header End---- */
 
@@ -518,9 +518,6 @@ p.product-description {
   margin: 0;
 }
 
-.col__product {
-  margin: 0;
-}
 
 
 
@@ -876,10 +873,16 @@ h3.h3-mob {
     width: 125px!important;
   }}
 
-  @media (max-width: 414px){
+  .col__product {
+    margin: 0;
+    margin-top: 20px;
+  }  
+
 .row__product2 {
-  margin-top: -30px;
-}}
+  margin-top: -35px;
+}
+
+
 
 /*Products end*/
 
