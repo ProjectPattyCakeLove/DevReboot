@@ -3,7 +3,7 @@
 var userFeed = new Instafeed({
     get: 'user',
     userId: '18022367538',
-    accessToken: '18022367538.1677ed0.574edd7525d74ce89cc8f56886bd9357',
+    accessToken: '18022367538.1677ed0.f9c6b723654243a78fb81b1d1748797d',
     resolution: 'standard_resolution',
     template: `	<li>
                     <a href="{{link}}" target="_blank" id="{{id}}">
